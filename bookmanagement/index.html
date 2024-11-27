@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>Book Borrowing Management</title>
+    <link rel="stylesheet" href="style.css" 
+ </head>
+ <body>
+
+     <img src="miran.PNG";
+
+     <h1> BOOK BORROWING MANAGEMENT</h1>
+     <div class="miran">
+        <div class="leftsidebar">
+            Left Sidebar
+         </div>
+         <div class="content">
+            <div class="Sec1">
+               INFORMATION WILL BE ADD SOON 
+             </div>
+             <div class="Sec2">
+               INFORMATION WILL BE ADD SOON
+             </div>
+             <div class="Sec3">
+        
+                 <div class="column1"><br>
+                    
+                 </div>
+
+                 <div class="column2"><br>
+
+                 </div>
+
+                 <div class="column3"><br>
+                 </div>
+             </div>
+             <div class="review">
+                INFORMATION WILL BE ADD SOON
+             </div>
+             <div class="contact">
+                
+                <div class="info">Book Register
+                    <form id="book_form" class="bookForm" action="process.php" method="post" ">
+                        <br><label for="name">Ful Name: </label>
+                        <input type="text" id="fullName" name="fullName">
+                        <br><label for="name">Student Id: </label>
+                        <input type="text" id="id" name="id">
+                        <br><label for="email">E-mail: </label>
+                        <input type="email" id="email" name="email">
+                        <br><label for="books">Choose Book: </label>
+                        <select id="books" name="books" class="customSelector">
+                            <option value="Anna Karenina ">Anna Karenina </option>
+                            <option value="Madame Bovary">Madame Bovary</option>
+                            <option value="War and Peace">War and Peace</option>
+                            <option value="The Great Gatsbyc">The Great Gatsbyc</option>
+                            <option value="Adventures of Huckleberry Finn">Adventures of Huckleberry Finn</option>
+                            <option value=" Middlemarch"> Middlemarch</option>
+                            <option value=" Middlemarch"> Middlemarch</option>
+                            <option value="In Search of Lost Thee">In Search of Lost Thee</option>
+                            <option value=" Hamlet"> Hamlet</option>
+                            <option value="Lolita">Lolita</option>
+                         </select><br>
+                         <br><label for="Token">Token Number: </label>
+                         <input type="text" id="token" name="token">
+                         <br><label for="borrowDate">Borrow Date: </label>
+                         <input type="date" id="borrowDate" name="borrowDate">
+                         <br><label for="returnDate">Return Date: </label>
+                         <input type="date" id="returnDate" name="returnDate">
+                         <input type="submit" id="submit" name="submit" onclick="setTimeout(() => document.getElementById('book_form').reset(), 50);">
+
+                     </form>
+                 </div>
+                 <div class="form">Contact Form</div>
+             </div>
+         </div>
+         <div class="leftsidebar">
+            Right Sidebar
+         </div>
+     </div>
+    
+ </body>
+ </html>
